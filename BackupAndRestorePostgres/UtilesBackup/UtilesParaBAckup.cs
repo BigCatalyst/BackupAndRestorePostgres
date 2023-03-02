@@ -74,8 +74,9 @@ namespace BackupAndRestorePostgres.UtilesBackup
             string user,
             string password,
             string dbname,
-            string backupdir,
-            string backupFileName,
+            string direccion,
+            //string backupdir,
+            //string backupFileName,
             string backupCommandDir)
         {
             try
@@ -83,10 +84,20 @@ namespace BackupAndRestorePostgres.UtilesBackup
 
                 Environment.SetEnvironmentVariable("PGPASSWORD", password);
 
-                string backupFile = backupdir + backupFileName + "_" + DateTime.Now.ToString("yyyy") + "_" + DateTime.Now.ToString("MM") + "_" + DateTime.Now.ToString("dd") + ".backup";
+                string backupFile = direccion;//backupdir + backupFileName + "_" + DateTime.Now.ToString("yyyy") + "_" + DateTime.Now.ToString("MM") + "_" + DateTime.Now.ToString("dd") + ".backup";
 
-                string BackupString = " -f \"" + backupFile + "\" -F c" +
-                  " -h " + server + " -U " + user + " -p " + port + " -d " + dbname;
+                string conexion = "--host="+ server + " --port="+ port + " --username="+ user + " --no-password";
+                string[] comandos = {
+                    "dropdb "+ conexion+" --if-exists -f",
+                    "createdb "+ conexion+" --owner="+user,
+                     "pg_restore "+ conexion+"-d cinema -v \""+direccion+"\""
+                };
+
+                string BackupString = ReneUtiles.Utiles.join(comandos,"&&");
+                
+                
+                  //  " -f \"" + backupFile + "\" -F c" +
+                  //" -h " + server + " -U " + user + " -p " + port + " -d " + dbname;
 
 
                 Process proc = new System.Diagnostics.Process();

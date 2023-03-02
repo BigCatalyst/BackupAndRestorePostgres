@@ -1,20 +1,20 @@
 ﻿BackupAndRestorePostgres
 
 
-exe
+winexe
 C#
 .cs
-D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\
 BackupAndRestorePostgres
 none
 false
 DEBUG;TRACE
-D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\App.xaml
-11151548125
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\App.xaml
+21396983467
 
-6-2074092380
-76617155008
-MainWindow.xaml;
+762097243
+771788355864
+DlgEspere.xaml;MainWindow.xaml;
 
 False
 

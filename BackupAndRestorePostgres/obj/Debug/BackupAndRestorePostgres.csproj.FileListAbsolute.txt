@@ -34,3 +34,64 @@ D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePos
 D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.exe
 D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.pdb
 D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\App.baml
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\BackupAndRestorePostgres.exe.config
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.exe
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.pdb
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\BackupAndRestorePostgres.exe
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\BackupAndRestorePostgres.pdb
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\delimon.win32.io.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\LiveCharts.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\MaterialDesignColors.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Npgsql.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\ReneUtiles.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\ReneWPF.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Data.SQLite.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.ValueTuple.dll
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.csprojResolveAssemblyReference.cache
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\MainWindow.g.cs
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\App.g.cs
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres_MarkupCompile.cache
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres_MarkupCompile.lref
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\App.baml
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\MainWindow.baml
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.g.resources
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.Properties.Resources.resources
+C:\Users\PCR\Documents\Visual Studio 2015\Projects\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.csproj.GenerateResource.Cache
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\BackupAndRestorePostgres.exe.config
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.exe
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.pdb
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\BackupAndRestorePostgres.exe
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\BackupAndRestorePostgres.pdb
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\delimon.win32.io.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\LiveCharts.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\LiveCharts.Wpf.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\MaterialDesignColors.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Npgsql.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\ReneUtiles.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\ReneWPF.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Data.SQLite.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.ValueTuple.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\ReneUtiles.pdb
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\ReneWPF.pdb
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.csprojResolveAssemblyReference.cache
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\MainWindow.g.cs
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\App.g.cs
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres_MarkupCompile.cache
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres_MarkupCompile.lref
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\App.baml
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\MainWindow.baml
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.g.resources
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.Properties.Resources.resources
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.csproj.GenerateResource.Cache
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Ookii.Dialogs.Wpf.dll
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Ookii.Dialogs.Wpf.pdb
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Ookii.Dialogs.Wpf.xml
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\DlgEspere.g.cs
+D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\DlgEspere.baml

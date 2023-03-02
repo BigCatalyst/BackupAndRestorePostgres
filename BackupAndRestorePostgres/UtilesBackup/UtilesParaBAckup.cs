@@ -5,6 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using ReneUtiles;
+using ReneUtiles.Clases;
+using Delimon.Win32.IO;
+
+
 namespace BackupAndRestorePostgres.UtilesBackup
 {
     public class UtilesParaBackup
@@ -20,23 +25,27 @@ namespace BackupAndRestorePostgres.UtilesBackup
             }
             return carpeta + "\\";
         }
-
+        public static string adaptarExtencioBackup(string direccion) {
+            return Archivos.setExtencionStr(direccion, ".backup");
+        }
         public static string BackupDatabase(
             string server,
             string port,
             string user,
             string password,
             string dbname,
-            string backupdir,
-            string backupFileName,
+            string direccion,
+            //string backupdir,
+            //string backupFileName,
             string backupCommandDir)
         {
             try
             {
 
                 Environment.SetEnvironmentVariable("PGPASSWORD", password);
+                direccion = adaptarExtencioBackup(direccion);
 
-                string backupFile = backupdir + backupFileName + "_" + DateTime.Now.ToString("yyyy") + "_" + DateTime.Now.ToString("MM") + "_" + DateTime.Now.ToString("dd") + ".backup";
+                string backupFile = direccion; //backupdir + backupFileName + "_" + DateTime.Now.ToString("yyyy") + "_" + DateTime.Now.ToString("MM") + "_" + DateTime.Now.ToString("dd") + ".backup";
 
                 string BackupString = " -f \"" + backupFile + "\" -F c" +
                   " -h " + server + " -U " + user + " -p " + port + " -d " + dbname;
@@ -88,34 +97,50 @@ namespace BackupAndRestorePostgres.UtilesBackup
 
                 string conexion = "--host="+ server + " --port="+ port + " --username="+ user + " --no-password";
                 string[] comandos = {
-                    "dropdb "+ conexion+" --if-exists -f",
-                    "createdb "+ conexion+" --owner="+user,
-                     "pg_restore "+ conexion+"-d cinema -v \""+direccion+"\""
+                    
+                    "cd /D \""+backupCommandDir+"\"",
+                    "dropdb "+ conexion+" --if-exists -f "+dbname,
+                    "createdb "+ conexion+" --owner="+user+" "+dbname,
+                     "pg_restore "+ conexion+" -d "+dbname+" -v \""+direccion+"\""
                 };
 
                 string BackupString = ReneUtiles.Utiles.join(comandos,"&&");
-                
-                
-                  //  " -f \"" + backupFile + "\" -F c" +
-                  //" -h " + server + " -U " + user + " -p " + port + " -d " + dbname;
+
+                //foreach (var item in comandos)
+                //{
+                //    Console.WriteLine(item);
+                //}
+
+               // Console.WriteLine(BackupString);
 
 
-                Process proc = new System.Diagnostics.Process();
-                proc.StartInfo.FileName = backupCommandDir + "\\pg_restore.exe";
 
-                proc.StartInfo.Arguments = BackupString;
-
-                proc.StartInfo.RedirectStandardOutput = false;//for error checks BackupString
-                proc.StartInfo.RedirectStandardError = false;
+                FileInfo f= Archivos.crearTEXTO(new DirectoryInfo( System.IO.Directory.GetCurrentDirectory()), "ejectuar", ".bat", "@echo\n", "SET PGPASSWORD="+password,  BackupString);
 
 
-                proc.StartInfo.UseShellExecute = false;//use for not opening cmd screen
-                proc.StartInfo.CreateNoWindow = true;//use for not opening cmd screen
+                ReneUtiles.Utiles.ejecutarCMD_Visible(
+                    urlExe:f.ToString() //@"C:\Windows\System32\cmd.exe"
+                                       );
+                //  " -f \"" + backupFile + "\" -F c" +
+                //" -h " + server + " -U " + user + " -p " + port + " -d " + dbname;
 
 
-                proc.Start();
-                proc.WaitForExit();
-                proc.Close();
+                //Process proc = new System.Diagnostics.Process();
+                //proc.StartInfo.FileName = "cmd.exe"; //backupCommandDir + "\\pg_restore.exe";
+
+                //proc.StartInfo.Arguments = BackupString;
+
+                //proc.StartInfo.RedirectStandardOutput = false;//for error checks BackupString
+                //proc.StartInfo.RedirectStandardError = false;
+
+
+                //proc.StartInfo.UseShellExecute = false;//use for not opening cmd screen
+                //proc.StartInfo.CreateNoWindow = true;//use for not opening cmd screen
+
+
+                //proc.Start();
+                //proc.WaitForExit();
+                //proc.Close();
 
                 return backupFile;
             }
@@ -124,5 +149,6 @@ namespace BackupAndRestorePostgres.UtilesBackup
                 return null;
             }
         }
+
     }
 }

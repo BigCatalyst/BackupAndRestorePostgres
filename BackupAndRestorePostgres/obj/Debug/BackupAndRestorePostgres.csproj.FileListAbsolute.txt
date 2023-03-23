@@ -15,13 +15,6 @@ D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePos
 D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.ValueTuple.dll
 D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\ReneUtiles.pdb
 D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\ReneWPF.pdb
-D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Npgsql.pdb
-D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Npgsql.xml
-D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Data.SQLite.pdb
-D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Data.SQLite.xml
-D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\System.ValueTuple.xml
 D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\BackupAndRestorePostgres.csprojResolveAssemblyReference.cache
 D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\MainWindow.g.cs
 D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\App.g.cs
@@ -95,3 +88,7 @@ D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRe
 D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Ookii.Dialogs.Wpf.xml
 D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\DlgEspere.g.cs
 D:\_Cosas\Programacion\Proyectos\C#\_Roilan\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\DlgEspere.baml
+D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Ookii.Dialogs.Wpf.pdb
+D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\bin\Debug\Ookii.Dialogs.Wpf.xml
+D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\DlgEspere.g.cs
+D:\_Cosas\Programacion\Proyectos\C#\BackupAndRestorePostgres\BackupAndRestorePostgres\obj\Debug\DlgEspere.baml

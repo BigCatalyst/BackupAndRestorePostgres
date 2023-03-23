@@ -150,11 +150,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ReneUtilesCsharp\ReneUtiles\ReneUtiles.csproj">
+    <ProjectReference Include="..\..\ReneUtilesCsharp\ReneUtiles\ReneUtiles.csproj">
       <Project>{ae5bc0d2-5527-4252-9691-3cd82db1f71f}</Project>
       <Name>ReneUtiles</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\ReneWPF\ReneWPF\ReneWPF.csproj">
+    <ProjectReference Include="..\..\ReneWPF\ReneWPF\ReneWPF.csproj">
       <Project>{6de58df7-8771-418d-b07e-20f38083dedd}</Project>
       <Name>ReneWPF</Name>
     </ProjectReference>

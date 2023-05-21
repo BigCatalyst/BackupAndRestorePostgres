@@ -49,7 +49,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <TextBlock Text="Backup Y Restore: René Lázaro Collado Artega and Roilan Lauzardo Sotolongo"
+                    <TextBlock Text="Backup Y Restore: René Lázaro Collado Artega "
                                Foreground="#FFE0E0E0"
                                FontSize="10"
                                FontFamily="Montserrat"
@@ -118,12 +118,12 @@
                       x:Name="TB_Usuario"
                       materialDesign:HintAssist.Hint="Usuario"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" VerticalAlignment="Center" Margin="10,6" Height="39" Width="323" 
-                            IsReadOnly="True" />
+                            IsReadOnly="False" />
                     </StackPanel>
 
                     <StackPanel Grid.Row="2" Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="Lastpass" VerticalAlignment="Center" Margin="6,15,0,1" Height="25" Width="24" />
-                        <TextBox IsReadOnly="True"
+                        <TextBox IsReadOnly="False"
                       x:Name="TB_Password"
                       materialDesign:HintAssist.Hint="Password"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" VerticalAlignment="Center" Margin="10,6" Height="39" Width="323" />
@@ -131,7 +131,7 @@
 
                     <StackPanel Grid.Row="3" Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="ServerSecurity" VerticalAlignment="Center" Margin="6,15,0,1" Height="25" Width="24" />
-                        <TextBox IsReadOnly="True"
+                        <TextBox IsReadOnly="False"
                       x:Name="TB_Host"
                       materialDesign:HintAssist.Hint="Host"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" VerticalAlignment="Center" Margin="10,6" Height="39" Width="323" />
@@ -139,14 +139,14 @@
 
                     <StackPanel Grid.Row="4" Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="ServerNetwork" VerticalAlignment="Center" Margin="6,15,0,1" Height="25" Width="24" />
-                        <TextBox IsReadOnly="True"
+                        <TextBox IsReadOnly="False"
                       x:Name="TB_Puerto"
                       materialDesign:HintAssist.Hint="Puerto"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" VerticalAlignment="Center" Margin="10,6" Height="39" Width="323" />
                     </StackPanel>
 
                     <StackPanel Grid.Row="5" Orientation="Horizontal">
-                        <Button IsEnabled="False"
+                        <Button IsEnabled="True"
                             Click="alApretar_B_BinPosgres"
                                 Style="{StaticResource MaterialDesignFlatButton}" 
                             Margin="0,10,0,9" Width="38" Padding="0">
@@ -155,7 +155,7 @@
 
 
 
-                        <TextBox IsReadOnly="True"
+                        <TextBox IsReadOnly="False"
                       x:Name="TB_BinPostgres"
                       materialDesign:HintAssist.Hint="Bin Postgres"
                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" VerticalAlignment="Center" Margin="10,6" Height="39" Width="323" />

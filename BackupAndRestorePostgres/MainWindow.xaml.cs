@@ -30,7 +30,7 @@ namespace BackupAndRestorePostgres
         public TemporalStorageBD TS;
         public EjecutorDeSubprosesosWPF ejc;
         public MainWindow()
-        {
+        {//and Roilan Lauzardo Sotolongo
             InitializeComponent();
             this.TS = new TemporalStorageBD();
             TB_BaseDatos.Text= this.TS.getStr("bd","cinema");
